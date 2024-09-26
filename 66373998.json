@@ -62,12 +62,24 @@
             "ext": "https://www.tvkuys.xyz/api.php/app/"
         },
         
-        
-       	{"key":"天天影视","name":"🆁┃天天","type":3,"api":"csp_TTian","ext":"http://op.ysdqjs.cn"},
-	
-	 {"key":"热播影视","name":"🆁┃热播","type":3,"api":"csp_TTian","ext":"http://v.rbotv.cn"},
-	
-	
+{
+            "key": "天天影视",
+            "name": "天天｜APP",
+            "type": 3,
+            "api": "csp_AppTT",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "热播影视",
+            "name": "热播｜APP",
+            "type": 3,
+            "api": "csp_AppRB",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
 
 	
 	
