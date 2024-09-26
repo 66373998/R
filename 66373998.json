@@ -17,6 +17,13 @@
       "api": "csp_Douban",
       "searchable": 0, 
       "jar": "./JAR/0104.jar"},
+      {
+            "key": "天堂短剧",
+            "name": "天堂｜短剧",
+            "type": 3,
+            "api": "./lib/drpy2.min.js",
+            "ext": "./lib/天堂短剧.js"
+        },
       
        {"key":"南瓜影视","name":"🆁┃南瓜","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/南瓜.js"},
     
