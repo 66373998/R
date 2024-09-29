@@ -17,18 +17,7 @@
       "api": "csp_Douban",
       "searchable": 0, 
       "jar": "./JAR/0104.jar"},
-
-    
         
-             {
-            "key": "大米星球",
-            "name": "🆁┃大米",
-            "type": 3,
-            "api": "csp_AppDaMi",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
             {
       "key": "新感觉",
       "name": "🆁┃感觉",
@@ -388,6 +377,15 @@
         "动作片"
       ]
     },
+                 {
+            "key": "大米星球",
+            "name": "🆁┃大米",
+            "type": 3,
+            "api": "csp_AppDaMi",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
    
 
    {
