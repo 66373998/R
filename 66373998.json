@@ -1,5 +1,5 @@
   {
-    "spider":"./JAR/R.jar;md5;461266c1d1dd71dabf47253ece6c2317",          
+    "spider":"./JAR/spider.jar;md5;461266c1d1dd71dabf47253ece6c2317",          
  "lives": [
     {
         "name":"live",
@@ -18,7 +18,25 @@
       "searchable": 0, 
       "jar": "./JAR/0104.jar"},
     
-       {"key":"南瓜影视","name":"🆁┃南瓜","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/南瓜.js"},
+    
+       {
+            "key": "南瓜影视",
+            "name": "🆁┃南瓜",
+            "type": 3,
+            "api": "csp_Nangua",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+          {
+            "key": "铁剧影视",
+            "name": "🆁┃铁剧",
+            "type": 3,
+            "api": "csp_WebBr",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
     
         {
             "key": "立播影视",
@@ -91,6 +109,28 @@
             "quickSearch": 1,
             "filterable": 1
         },
+             {
+      "key": "追剧影视",
+      "name": "🆁┃追剧",
+      "type": 3,
+      "api": "csp_AppZJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://z.kzjtv.com/"
+    },
+       {
+      "key": "全网影视",
+      "name": "🆁┃全网",
+      "type": 3,
+      "api": "csp_Quanwk",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://888.qkw2.cc"
+    },
+
+   
            {
             "key": "厂长资源",
             "name": "🆁┃厂长",
