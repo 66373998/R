@@ -1,5 +1,5 @@
   {
-    "spider":"./JAR/spider.jar;md5;461266c1d1dd71dabf47253ece6c2317",          
+    "spider":"./JAR/spider.txt;md5;457855ba2a9ae5b714494638a3e938ae",          
  "lives": [
     {
         "name":"live",
@@ -61,6 +61,26 @@
             "quickSearch": 1,
             "filterable": 1
         },
+               {
+      "key": "可可影视",
+      "name": "🆁┃可可",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/KKYS.json"
+    },
+       {
+      "key": "素白白",
+      "name": "🆁┃素白",
+      "type": 3,
+      "api": "csp_Subaibai",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://subaibai.com"
+    },
           {
             "key": "FreeOK",
             "name": "🆁┃Free",
