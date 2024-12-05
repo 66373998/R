@@ -83,8 +83,11 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext":"https://www.xlys01.com"
+      "ext": {
+        "site": "https://www.xlys01.com"
+      }
     },
+    
     
        {
       "key": "素白白",
