@@ -75,7 +75,7 @@
       "ext": "./lib/KKYS.json"
     },
     
-    {
+   {
       "key": "哔嘀弹幕",
       "name": "哔嘀｜弹幕",
       "type": 3,
@@ -84,7 +84,8 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "site": "https://www.xlys01.com"
+        "site": "https://www.xlys01.com",
+        "danmu": true
       }
     },
     
