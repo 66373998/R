@@ -28,15 +28,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-          {
-            "key": "铁剧影视",
-            "name": "🆁┃铁剧",
-            "type": 3,
-            "api": "csp_WebBr",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
+          
     
         {
             "key": "立播影视",
@@ -61,6 +53,17 @@
             "quickSearch": 1,
             "filterable": 1
         },
+        {
+      "key": "csp_Nmys",
+      "name": "🆁┃农民",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_Nmys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://vip.wwgz.cn/"
+    },
                {
       "key": "可可影视",
       "name": "🆁┃可可",
@@ -71,6 +74,18 @@
       "filterable": 1,
       "ext": "./lib/KKYS.json"
     },
+    
+    {
+      "key": "哔嘀弹幕",
+      "name": "哔嘀｜弹幕",
+      "type": 3,
+      "api": "csp_Bdys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext":"https://www.xlys01.com"
+    },
+    
        {
       "key": "素白白",
       "name": "🆁┃素白",
@@ -92,7 +107,7 @@
         },
          {
       "key": "奈飞影视",
-      "name": "🎦鸭奈飞",
+      "name": "🆁┃奈飞",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
@@ -102,7 +117,7 @@
     },
     {
       "key": "大师兄",
-      "name": "🎦大师兄影视",
+      "name": "🆁┃师兄",
       "type": 3,
       "api": "csp_XBPQ",
       "ext": {
