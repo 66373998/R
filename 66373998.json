@@ -18,7 +18,28 @@
       "searchable": 0, 
       "jar": "./JAR/0104.jar"},
     
-    
+        {
+      "key": "影探4K",
+      "name": "👨‍🍳‍影探4K",
+      "type": 3,
+      "api": "./MB/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "./MB/影探4K.js"
+    },
+     {
+      "key": "🌞腾腾4K解析_js",
+      "name": "🌞腾腾4K",
+      "type": 3,
+      "api": "./MB/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "./MB/腾腾4K.js"
+    },
        {
             "key": "南瓜影视",
             "name": "🆁┃南瓜",
@@ -99,17 +120,7 @@
     
     "线路标题":"专线+>&&<" } },
 
- {
-      "key": "🌞腾腾4K解析_js",
-      "name": "🌞腾腾4K(解析)",
-      "type": 3,
-      "api": "./MB/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "./MB/腾腾4K.js"
-    },
+
 
 { "key": "看戏",
       "name": "🆁┃看戏",
