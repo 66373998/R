@@ -40,6 +40,62 @@
       "order_num": 0,
       "ext": "./MB/腾腾4K.js"
     },
+    
+    
+        {
+      "key": "AI4",
+      "name": "AI4┃APP",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 2,
+       "jar": "./MB/QJ.jar", 
+      "ext": "iaHR0cDovLzM5Ljk4LjMyLjI0MTo2Njg4L2FwaS5waHAvemp2My52b2Q="
+    },
+    
+    {
+      "key": "360_spider",
+      "name": "360┃解析",
+      "api": "csp_SP360",
+      "type": 3,
+      "filterable": 1,
+      "quickSearch": 1,
+      "searchable": 1,
+      "playerType": 2,
+      "jar": "./MB/QJ.jar",
+      "ext": ""
+    },
+      {
+      "key": "剧评",
+      "name": "剧评┃App",
+      "type": 3,
+      "api": "csp_Jpys",
+      "playerType": 1,
+      "jar": "./MB/QJ.jar",
+      "ext": "caHR0cHM6Ly93d3cuY2Zrajg2LmNvbQ=="
+    },
+
+    {
+      "key": "雨滴",
+      "name": "雨滴┃App",
+      "type": 3,
+      "api": "csp_Xdai",
+      "playerType": 1,
+      "jar": "./MB/QJ.jar",
+      "ext": "jaHR0cDovL2M4dzJvdjd1NXdnMnoxbzhwMjFjLmFsaXl1bmNzLmNsaWNrfGs5bzNwMmM4YjdtM3owbzh8azlvM3AyYzhiN20zejBvOA"
+    },
+    
+    {
+      "key": "柠檬",
+      "name": "柠檬┃App",
+      "type": 3,
+      "api": "csp_Nmvod",
+      "playerType": 2,
+      "jar": "./MB/QJ.jar",
+      "ext": "eaHR0cHM6Ly9hcGkuY25tY29tLmNvbS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ=="
+    },
        {
             "key": "南瓜影视",
             "name": "🆁┃南瓜",
@@ -517,17 +573,6 @@
       "filterable": 1,
       "ext": "http://www.xb6v.com"},
    
-    
-    {
-      "key": "360_spider",
-      "name": "🆁┃360",
-      "type": 3,
-      "api": "csp_SP360",
-      "filterable": 1,
-      "quickSearch": 1,
-      "searchable": 1
-       },
- 
  
    {
       "key": "csp_XYQHiker_鸭奈飞影视",
