@@ -1,5 +1,6 @@
   {
-    "spider":"./JAR/spider.txt;md5;457855ba2a9ae5b714494638a3e938ae",          
+    "spider":"./JAR/spider.txt;md5;457855ba2a9ae5b714494638a3e938ae",    
+    "logo":" ",      
  "lives": [
     {
         "name":"live",
@@ -17,10 +18,61 @@
       "api": "csp_Douban",
       "searchable": 0, 
       "jar": "./JAR/0104.jar"},
+     {
+      "key": "雨滴",
+      "name": "🆁┃雨滴┃App",
+      "type": 3,
+      "api": "csp_Xdai",
+      "playerType": 1,
+      "jar": "./MB/QJ.jar",
+      "ext": "jaHR0cDovL2M4dzJvdjd1NXdnMnoxbzhwMjFjLmFsaXl1bmNzLmNsaWNrfGs5bzNwMmM4YjdtM3owbzh8azlvM3AyYzhiN20zejBvOA"
+    },
     
+    {
+      "key": "柠檬",
+      "name": "🆁┃柠檬┃App",
+      "type": 3,
+      "api": "csp_Nmvod",
+      "playerType": 2,
+      "jar": "./MB/QJ.jar",
+      "ext": "eaHR0cHM6Ly9hcGkuY25tY29tLmNvbS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ=="
+    },
+       {
+            "key": "南瓜影视",
+            "name": "🆁┃南瓜┃App",
+            "type": 3,
+      "api": "csp_NanGua",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playerType": 2,
+      "filterable": 1,
+      "jar": "./MB/QJ.jar",
+      "ext": ""
+    },
+            {
+      "key": "AI4",
+      "name": "🆁┃AI4┃App",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 2,
+       "jar": "./MB/QJ.jar", 
+      "ext": "iaHR0cDovLzM5Ljk4LjMyLjI0MTo2Njg4L2FwaS5waHAvemp2My52b2Q="
+    },
         {
+      "key": "剧评",
+      "name": "🆁┃剧评┃App",
+      "type": 3,
+      "api": "csp_Jpys",
+      "playerType": 1,
+      "jar": "./MB/QJ.jar",
+      "ext": "caHR0cHM6Ly93d3cuY2Zrajg2LmNvbQ=="
+    },
+          {
       "key": "影探4K",
-      "name": "👨‍🍳‍影探4K",
+      "name": "🆁┃影探┃解析",
       "type": 3,
       "api": "./MB/drpy2.min.js",
       "searchable": 1,
@@ -31,7 +83,7 @@
     },
      {
       "key": "🌞腾腾4K解析_js",
-      "name": "🌞腾腾4K",
+      "name": "🆁┃腾腾┃解析",
       "type": 3,
       "api": "./MB/drpy2.min.js",
       "searchable": 1,
@@ -40,24 +92,9 @@
       "order_num": 0,
       "ext": "./MB/腾腾4K.js"
     },
-    
-    
-        {
-      "key": "AI4",
-      "name": "AI4┃APP",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "playerType": 2,
-       "jar": "./MB/QJ.jar", 
-      "ext": "iaHR0cDovLzM5Ljk4LjMyLjI0MTo2Njg4L2FwaS5waHAvemp2My52b2Q="
-    },
-    
-    {
+      {
       "key": "360_spider",
-      "name": "360┃解析",
+      "name": "🆁┃360┃解析",
       "api": "csp_SP360",
       "type": 3,
       "filterable": 1,
@@ -67,45 +104,6 @@
       "jar": "./MB/QJ.jar",
       "ext": ""
     },
-      {
-      "key": "剧评",
-      "name": "剧评┃App",
-      "type": 3,
-      "api": "csp_Jpys",
-      "playerType": 1,
-      "jar": "./MB/QJ.jar",
-      "ext": "caHR0cHM6Ly93d3cuY2Zrajg2LmNvbQ=="
-    },
-
-    {
-      "key": "雨滴",
-      "name": "雨滴┃App",
-      "type": 3,
-      "api": "csp_Xdai",
-      "playerType": 1,
-      "jar": "./MB/QJ.jar",
-      "ext": "jaHR0cDovL2M4dzJvdjd1NXdnMnoxbzhwMjFjLmFsaXl1bmNzLmNsaWNrfGs5bzNwMmM4YjdtM3owbzh8azlvM3AyYzhiN20zejBvOA"
-    },
-    
-    {
-      "key": "柠檬",
-      "name": "柠檬┃App",
-      "type": 3,
-      "api": "csp_Nmvod",
-      "playerType": 2,
-      "jar": "./MB/QJ.jar",
-      "ext": "eaHR0cHM6Ly9hcGkuY25tY29tLmNvbS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ=="
-    },
-       {
-            "key": "南瓜影视",
-            "name": "🆁┃南瓜",
-            "type": 3,
-            "api": "csp_Nangua",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-          
     
         {
             "key": "立播影视",
@@ -157,10 +155,10 @@
       "type": 3,
       "api": "csp_XBPQ",
       "ext": {
-              "简介": "⚠️特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗️+剧情介绍：&&</p >",
+              "简介": "<div class=\"tjuqing\">&&</div>",
     "线路数组":"<h3 class=\"title\">&&/h3>",
     
-    "线路标题":"专线+>&&<",   
+    "线路标题":"线路",   
      "分类url":"https://www.hanjuda.com/vodtype/{cateId}.html",
  "分类":"2024$120#2023$119#2022$118#2021$117#2020$116#2019$115#2018$97"
     } },
@@ -169,22 +167,14 @@
       "name": "🆁┃一G",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": {              
+      "ext": {  
+      "简介": "<p>&&</p>",
      "分类url":"https://www.ygg01.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;ak",
  "分类":"电影$1#电视剧$2#短剧$5",
  "线路数组":"<h3 class=\"title\">&&/h3>",
     
     "线路标题":"专线+>&&<" } },
 
-
-
-{ "key": "看戏",
-      "name": "🆁┃看戏",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {              
-     "分类url":"https://m.kanxi33.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;ak",
- "分类":"电影$1#电视剧$2"  }  },
    {
       "key": "哔嘀弹幕",
       "name": "🆁┃哔嘀",
