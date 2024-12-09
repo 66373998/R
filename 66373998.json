@@ -104,6 +104,7 @@
       "jar": "./MB/QJ.jar",
       "ext": ""
     },
+    {"key":"芒果视频","name":"🆁┃芒果┃解析","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/芒果视频.js"},
     
         {
             "key": "立播影视",
@@ -851,7 +852,7 @@
       "url": "Sequence"
     },
     {
-      "name": "巧技",
+      "name": "🆁┃壹",
       "type": 1,
       "url": "https://zy.qiaoji8.com/neibu.php?url=",
       "ext": {
@@ -880,7 +881,7 @@
       }
     },
     {
-      "name": "巧技二",
+      "name": "🆁┃贰",
       "type": 1,
       "url": "https://zy.qiaoji8.com/gouzi.php?url=",
       "ext": {
@@ -912,17 +913,17 @@
 		  
 		  
     {
-      "name": "-8090g-",
+      "name": "🆁┃叁",
       "type": 0,
       "url": "https://www.8090g.cn/jiexi/?url="
     },
     {
-      "name": "-冰豆-",
+      "name": "🆁┃肆",
       "type": 0,
       "url": "https://bd.jx.cn/?url="
     },
     {
-      "name": "-m3u8TV-",
+      "name": "🆁┃伍",
       "type": 0,
       "url": "https://jx.m3u8.tv/jiexi/?url="
     }
