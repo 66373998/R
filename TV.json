@@ -61,6 +61,34 @@
        "jar": "./MB/QJ.jar", 
       "ext": "iaHR0cDovLzM5Ljk4LjMyLjI0MTo2Njg4L2FwaS5waHAvemp2My52b2Q="
     },
+    {
+      "key": "客星",
+      "name": "客星┃App",
+      "type": 3,
+      "api": "csp_Xdai",
+      "jar": "./MB/QJ.jar", 
+      "playerType": 1,
+      "ext": "caHR0cDovL2t4eXMua2FpeGlubWFuaHVhLnRvcHw1ODliMTkwNmI5NWY3MTljfDU4OWIxOTA2Yjk1ZjcxOWM="
+    },
+               
+{
+            "key": "天天影视",
+            "name": "🆁┃天天┃App",
+            "type": 3,
+            "api": "csp_AppTT",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "热播影视",
+            "name": "🆁┃热播┃App",
+            "type": 3,
+            "api": "csp_AppRB",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
         {
       "key": "剧评",
       "name": "🆁┃剧评┃App",
@@ -96,6 +124,8 @@
     },
     {"key":"芒果视频","name":"🆁┃芒果┃解析","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/芒果视频.js"},
     
+   	{"key":"爱奇艺",
+	"name":"🆁┃奇艺┃解析","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/爱奇艺.js"}, 
 
     {
             "key": "小苹果",
@@ -166,15 +196,7 @@
         "danmu": true
       }
     },
-    {
-      "key": "真心影视",
-      "name": "🆁┃真心",
-      "type": 3,
-      "api": "csp_WebGZ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+
     
     
        {
@@ -211,35 +233,8 @@
         
        
 
-           
-{
-            "key": "天天影视",
-            "name": "🆁┃天天",
-            "type": 3,
-            "api": "csp_AppTT",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "热播影视",
-            "name": "🆁┃热播",
-            "type": 3,
-            "api": "csp_AppRB",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-             {
-      "key": "追剧影视",
-      "name": "🆁┃追剧",
-      "type": 3,
-      "api": "csp_AppZJ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://z.kzjtv.com/"
-    },
+
+    
        {
       "key": "全网影视",
       "name": "🆁┃全网",
@@ -252,37 +247,10 @@
     },
 
    
-           {
-            "key": "厂长资源",
-            "name": "🆁┃厂长",
-            "type": 3,
-            "api": "csp_Czzy",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
+
         
-  {
-      "key": "新感觉",
-      "name": "🆁┃感觉",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://43.248.100.147:9892/api.php/app/"
-    },
-   {
-      "key": "六六六",
-      "name": "🆁┃六六",
-      "playerType": 1,
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": " http://122.228.85.203:1000/api.php/app/"
-    },    
+  
+
         {
     "key": "csp_XYQHiker_农民影视",
     "name":"🆁┃旺旺",
@@ -384,13 +352,7 @@
             "api": "./lib/drpy2.min.js",
             "ext": "./lib/看了么.js"
         },
-	{
-            "key": "搜狗视频",
-            "name": "🆁┃搜狗",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./lib/搜狗视频.js"
-        },
+
         {
             "key": "碟调影视",
             "name": "🆁┃低调",
@@ -414,12 +376,11 @@
 	
 	{"key":"机器人","name":"🆁┃机器","type":3,"api":"csp_Ikanbot","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://v.ikanbot.com"},
 	
-	{"key":"三四八","name":"🆁┃三四","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/三四八.json"},
+
 	
 	{"key":"电影牛","name":"🆁┃影牛","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/电影牛.json"},
 	
-	{"key":"爱奇艺","name":"🆁┃奇艺","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/爱奇艺.js"},
-	
+
 
 	
 	
@@ -432,8 +393,7 @@
 	
 	{"key":"腾讯视频","name":"🆁┃腾讯","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/腾讯视频.js"},
 	
-	{"key":"优酷视频","name":"🆁┃优酷","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/优酷视频.js"},
-	
+
 	
 	{"key":"在线之家","name":"🆁┃在线","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/在线之家.js"},
 	
@@ -460,22 +420,6 @@
 "ext":"./lib/星辰.json"},
  
 
-
-{"key": "csp_4k影视","name":"🆁┃K影","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
-"ext":"https://d.kstore.space/download/6983/lib/4K影视.json"}, 
-   
-  
- 
-  
-     {
-      "key": "drpy_js_米爱影视",
-      "name": "🆁┃米爱",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/米爱影视.js"
-    },
-  
-
  
 {"key":"csp_热播",
 "name":"🆁┃热播","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
@@ -492,8 +436,7 @@
 "quickSearch":1,
 "filterable":1},
 
- 
-    
+   
 
 {"key":"csp_淘剧",
 "name":"🆁┃淘剧","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
@@ -505,16 +448,7 @@
  "jar": "./JAR/XBPQ.jar", 
 "ext":"./lib/TVB.json"},
 
-
-
-
-     
-   
-
- 
- 
-
- 
+  
 
 {"key":"奇优",
  "name":"️🆁┃奇优",
@@ -527,36 +461,39 @@
  "ext":"./lib/奇优.json"},
  
 
- 
-           {
-            "key": "天堂短剧",
-            "name": "🆁┃短剧1",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./lib/天堂短剧.js"
-        },
-        {
-            "key": "在线短剧",
-            "name": "🆁┃短剧2",
-            "type": 3,
-            "api": "csp_Duanju",
-            "searchable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
-        },
         {
             "key": "星芽短剧",
-            "name": "🆁┃短剧3",
+            "name": "🆁┃短剧",
             "type": 3,
             "api": "csp_AppXY",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0
-        }
-
+        }, 
+        {
+      "key": "AI2",
+      "name": "AI2┃仅搜索",
+      "type": 3,
+      "api": "csp_AI",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+     "jar": "./MB/QJ.jar", 
+      "playerType": 2,
+      "ext": "faHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvYXBpLnBocC9wcm92aWRlL3ZvZC98TW96aWxsYS81LjAgKE1hY2ludG9zaDsgSW50ZWwgTWFjIE9TIFggMTBfMTVfNykgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExOS4wLjAuMCBTYWZhcmkvNTM3LjMzfHFpYW9qaQ=="
+    },
+{
+      "key": "AI3",
+      "name": "AI3┃仅搜索",
+      "type": 3,
+      "api": "csp_AI",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "jar": "./MB/QJ.jar", 
+      "playerType": 2,
+      "ext": "haHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvc3h5cy9hcGkucGhwL3Byb3ZpZGUvdm9kL3xva2h0dHAvNC45LjF8cWlhb2pp"
+    }
 ],
 
 		  "parses": [
