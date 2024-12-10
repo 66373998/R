@@ -18,6 +18,20 @@
       "api": "csp_Douban",
       "searchable": 0, 
       "jar": "./JAR/0104.jar"},
+      
+          {
+      "key": "韩剧网",
+      "name": "🆁┃韩剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+              "简介": "<div class=\"tjuqing\">&&</div>",
+    "线路数组":"<h3 class=\"title\">&&/h3>",
+    
+    "线路标题":"线路",   
+     "分类url":"https://www.hanjuda.com/vodtype/{cateId}.html",
+ "分类":"2024$120#2023$119#2022$118#2021$117#2020$116#2019$115#2018$97"
+    } },
      {
       "key": "雨滴",
       "name": "🆁┃雨滴┃App",
@@ -51,7 +65,7 @@
     },
             {
       "key": "AI4",
-      "name": "🆁┃AI4┃App",
+      "name": "🆁┃修罗┃App",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -63,7 +77,7 @@
     },
     {
       "key": "客星",
-      "name": "客星┃App",
+      "name": "🆁┃客星┃App",
       "type": 3,
       "api": "csp_Xdai",
       "jar": "./MB/QJ.jar", 
@@ -157,19 +171,7 @@
       "filterable": 1,
       "ext": "./lib/KKYS.json"
     },
-    {
-      "key": "韩剧网",
-      "name": "🆁┃韩网",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-              "简介": "<div class=\"tjuqing\">&&</div>",
-    "线路数组":"<h3 class=\"title\">&&/h3>",
-    
-    "线路标题":"线路",   
-     "分类url":"https://www.hanjuda.com/vodtype/{cateId}.html",
- "分类":"2024$120#2023$119#2022$118#2021$117#2020$116#2019$115#2018$97"
-    } },
+
     {
       "key": "一G",
       "name": "🆁┃一G",
@@ -472,7 +474,7 @@
         }, 
         {
       "key": "AI2",
-      "name": "AI2┃仅搜索",
+      "name": "🆁┃搜索",
       "type": 3,
       "api": "csp_AI",
       "searchable": 1,
@@ -484,7 +486,7 @@
     },
 {
       "key": "AI3",
-      "name": "AI3┃仅搜索",
+      "name": "🆁┃搜索",
       "type": 3,
       "api": "csp_AI",
       "searchable": 1,
