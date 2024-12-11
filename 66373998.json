@@ -61,6 +61,16 @@
        "jar": "./MB/QJ.jar", 
       "ext": "iaHR0cDovLzM5Ljk4LjMyLjI0MTo2Njg4L2FwaS5waHAvemp2My52b2Q="
     },
+    
+    {
+      "key": "客星",
+      "name": "🆁┃客星┃App",
+      "type": 3,
+      "api": "csp_Xdai",
+      "jar": "./MB/QJ.jar", 
+      "playerType": 1,
+      "ext": "caHR0cDovL2t4eXMua2FpeGlubWFuaHVhLnRvcHw1ODliMTkwNmI5NWY3MTljfDU4OWIxOTA2Yjk1ZjcxOWM="
+    },
         {
       "key": "剧评",
       "name": "🆁┃剧评┃App",
@@ -70,17 +80,7 @@
       "jar": "./MB/QJ.jar",
       "ext": "caHR0cHM6Ly93d3cuY2Zrajg2LmNvbQ=="
     },
-          {
-      "key": "影探4K",
-      "name": "🆁┃影探┃解析",
-      "type": 3,
-      "api": "./MB/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "./MB/影探4K.js"
-    },
+         
      {
       "key": "🌞腾腾4K解析_js",
       "name": "🆁┃腾腾┃解析",
@@ -90,7 +90,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 0,
-      "ext": "./MB/腾腾4K.js"
+      "ext": "./MB/腾讯一.js"
     },
       {
       "key": "360_spider",
@@ -106,20 +106,7 @@
     },
     {"key":"芒果视频","name":"🆁┃芒果┃解析","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/芒果视频.js"},
     
-        {
-            "key": "立播影视",
-            "name": "🆁┃立播",
-            "type": 3,
-            "api": "csp_Libvio",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt"
-            }
-        },
+        
     {
             "key": "小苹果",
             "name": "🆁┃苹果",
@@ -832,6 +819,32 @@
             "quickSearch": 0,
             "filterable": 0
         }
+        
+             {
+      "key": "AI2",
+      "name": "🆁┃搜索",
+      "type": 3,
+      "api": "csp_AI",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+     "jar": "./MB/QJ.jar", 
+      "playerType": 2,
+      "ext": "faHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvYXBpLnBocC9wcm92aWRlL3ZvZC98TW96aWxsYS81LjAgKE1hY2ludG9zaDsgSW50ZWwgTWFjIE9TIFggMTBfMTVfNykgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExOS4wLjAuMCBTYWZhcmkvNTM3LjMzfHFpYW9qaQ=="
+    },
+{
+      "key": "AI3",
+      "name": "🆁┃搜索",
+      "type": 3,
+      "api": "csp_AI",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "jar": "./MB/QJ.jar", 
+      "playerType": 2,
+      "ext": "haHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvc3h5cy9hcGkucGhwL3Byb3ZpZGUvdm9kL3xva2h0dHAvNC45LjF8cWlhb2pp"
+    }   
+        
 
 ],
 
