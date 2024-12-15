@@ -20,7 +20,7 @@
       "jar": "./JAR/0104.jar"},
      {
       "key": "雨滴",
-      "name": "🆁┃雨滴┃App",
+      "name": "🆁┃雨滴",
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 1,
@@ -30,7 +30,7 @@
     
     {
       "key": "柠檬",
-      "name": "🆁┃柠檬┃App",
+      "name": "🆁┃柠檬",
       "type": 3,
       "api": "csp_Nmvod",
       "playerType": 2,
@@ -39,7 +39,7 @@
     },
        {
             "key": "南瓜影视",
-            "name": "🆁┃南瓜┃App",
+            "name": "🆁┃南瓜",
             "type": 3,
       "api": "csp_NanGua",
       "searchable": 1,
@@ -51,7 +51,7 @@
     },
             {
       "key": "AI4",
-      "name": "🆁┃AI4┃App",
+      "name": "🆁┃修罗",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -64,7 +64,7 @@
     
     {
       "key": "客星",
-      "name": "🆁┃客星┃App",
+      "name": "🆁┃客星",
       "type": 3,
       "api": "csp_Xdai",
       "jar": "./MB/QJ.jar", 
@@ -73,7 +73,7 @@
     },
         {
       "key": "剧评",
-      "name": "🆁┃剧评┃App",
+      "name": "🆁┃剧评",
       "type": 3,
       "api": "csp_Jpys",
       "playerType": 1,
@@ -83,7 +83,7 @@
          
      {
       "key": "🌞腾腾4K解析_js",
-      "name": "🆁┃腾腾┃解析",
+      "name": "🆁┃腾腾",
       "type": 3,
       "api": "./MB/drpy2.min.js",
       "searchable": 1,
@@ -94,7 +94,7 @@
     },
       {
       "key": "360_spider",
-      "name": "🆁┃360┃解析",
+      "name": "🆁┃三六",
       "api": "csp_SP360",
       "type": 3,
       "filterable": 1,
@@ -104,11 +104,11 @@
       "jar": "./MB/QJ.jar",
       "ext": ""
     },
-    {"key":"芒果视频","name":"🆁┃芒果┃解析","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/芒果视频.js"},
+    {"key":"芒果视频","name":"🆁┃芒果","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/芒果视频.js"},
     
        {
       "key": "优酷视频",
-      "name": "优酷｜视频",
+      "name": "🆁┃优酷",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/YKSP.js"
