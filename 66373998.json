@@ -139,7 +139,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 0,
-      "ext": "./MB/腾腾4K.js"
+      "ext": "./MB/腾讯.js"
     },
       {
       "key": "360_spider",
@@ -153,10 +153,10 @@
       "jar": "./MB/QJ.jar",
       "ext": ""
     },
-    {"key":"芒果视频","name":"🆁┃芒果","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/芒果视频.js"},
+    {"key":"芒果视频","name":"🆁┃芒果","type":3,"api":"./MB/drpy2.min.js","ext":"./MB/芒果.js"},
     
     
-    	{"key":"优酷视频","name":"🆁┃优酷","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/优酷视频.js"},
+    	{"key":"优酷视频","name":"🆁┃优酷","type":3,"api":"./MB/drpy2.min.js","ext":"./MB/优酷.js"},
     	
     {"key":"爱奇艺","name":"🆁┃奇艺","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/爱奇艺.js"},	
     
