@@ -506,7 +506,6 @@
  
 
 {"key":"剧圈圈","name":"🆁┃剧圈","type":3,"api":"csp_XBPQ",
- "jar": "./JAR/XBPQ.jar", 
 "ext": {"分类":"电影$1#电视剧$2#动漫$3#综艺$4","分类url":"https://www.jqqzx.cc/vodshow/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html"}},
 
 {"key": "csp_4k影视","name":"🆁┃K影","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
@@ -527,7 +526,7 @@
 
 
 		{ "key": "海兔影院",  "name": "🆁┃海兔", "type": 3,"api": "csp_XBPQ",
-	 "jar": "./JAR/XBPQ.jar", 	
+	 	
 		  "ext": { "分类url":"https://www.haituu.tv/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html","分类":"电视剧$2#电影$1#综艺$3"}},
  
  
@@ -554,7 +553,6 @@
  
 {"key":"csp_热播",
 "name":"🆁┃热播","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "jar": "./JAR/XBPQ.jar", 
 "ext":"./lib/热播之家.json"  },
 
 
@@ -583,12 +581,10 @@
 
 {"key":"csp_淘剧",
 "name":"🆁┃淘剧","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "jar": "./JAR/XBPQ.jar", 
 "ext":"./lib/淘剧影院.json"},
 
 {"key":"csp_TVB",
-"name":"🆁┃TVB","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "jar": "./JAR/XBPQ.jar", 
+"name":"🆁┃TVB","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1, 
 "ext":"./lib/TVB.json"},
 
 
@@ -645,8 +641,7 @@
  "api":"csp_XBPQ",
  "searchable":1,
  "quickSearch":1,
- "filterable":1,
-  "jar": "./JAR/XBPQ.jar", 
+ "filterable":1, 
  "ext":"./lib/奇优.json"},
  
  
