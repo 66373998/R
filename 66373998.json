@@ -644,29 +644,25 @@
  "filterable":1, 
  "ext":"./lib/奇优.json"},
  
- 
-           {
-            "key": "天堂短剧",
-            "name": "🆁┃短剧1",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./lib/天堂短剧.js"
-        },
-        {
-            "key": "在线短剧",
-            "name": "🆁┃短剧2",
-            "type": 3,
-            "api": "csp_Duanju",
-            "searchable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
-        },
+     {
+      "key": "吉吉短剧",
+      "name": "🆁┃短剧1",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./lib/JJDJ.json"
+    },
+    {
+      "key": "短剧网",
+      "name": "短剧网｜短剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./lib/DJWang.json"
+    },
+  
+     
         {
             "key": "星芽短剧",
-            "name": "🆁┃短剧3",
+            "name": "🆁┃短剧2",
             "type": 3,
             "api": "csp_AppXY",
             "searchable": 1,
@@ -770,9 +766,7 @@
           "User-Agent": "okhttp/4.9.1"
         }
       }
-    }, 
-		  
-		  
+    },	  
 		  
     {
       "name": "🆁┃叁",
@@ -788,6 +782,11 @@
       "name": "🆁┃伍",
       "type": 0,
       "url": "https://jx.m3u8.tv/jiexi/?url="
+    },
+    {
+      "name": "🆁┃陆",
+      "type": 1,
+      "url": "http://154.9.253.211:777/api/?key=RbMD3gulnCTIx61557&url="
     }
   ],
   "doh": [
