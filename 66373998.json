@@ -1,6 +1,6 @@
   {
     "spider":"./JAR/spider.txt;md5;62604d62b4f3bd41b195b5670bed80a9",    
-    "logo":" ",      
+    "logo":"./MB/1.png",      
  "lives": [
     {
         "name":"live",
