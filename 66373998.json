@@ -18,7 +18,16 @@
       "api": "csp_Douban",
       "searchable": 0, 
       "jar": "./JAR/0104.jar"},
-      
+      {
+      "key": "全网",
+      "name": "全网",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+     "简介": "<p>&&</p>",
+     "分类url":"https://www.ysdq.me/vodtype/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+ "分类":"电影$1#电视剧$2#短剧$3#动漫$5#综艺$4"
+    } },
      {"key":"南瓜",
 "name":"南瓜┃App",
 "type":3,"api":"csp_NanGua","searchable":1,
@@ -240,15 +249,7 @@
       "filterable": 1,
       "ext": "http://subaibai.com"
     },
-    {
-            "key": "糯米弹幕",
-            "name": "🆁┃糯米",
-            "type": 3,
-            "api": "csp_Nmys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
+
          {
       "key": "奈飞影视",
       "name": "🆁┃奈飞",
@@ -551,11 +552,6 @@
       "filterable": 1,
       "ext": "./lib/鸭奈飞影视.json"},
  
-{"key":"csp_热播",
-"name":"🆁┃热播","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
-"ext":"./lib/热播之家.json"  },
-
-
 
 {"key":"快看",
 "name":"🆁┃快看",
