@@ -18,16 +18,7 @@
       "api": "csp_Douban",
       "searchable": 0, 
       "jar": "./JAR/0104.jar"},
-      {
-      "key": "全网",
-      "name": "全网",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-     "简介": "<p>&&</p>",
-     "分类url":"https://www.ysdq.me/vodtype/{cateId}-{area}--{class}-----{catePg}---{year}.html",
- "分类":"电影$1#电视剧$2#短剧$3#动漫$5#综艺$4"
-    } },
+ 
      {"key":"南瓜",
 "name":"南瓜┃App",
 "type":3,"api":"csp_NanGua","searchable":1,
@@ -152,7 +143,7 @@
     },
       {
       "key": "360_spider",
-      "name": "🆁┃三六",
+      "name": "🆁┃360",
       "api": "csp_SP360",
       "type": 3,
       "filterable": 1,
@@ -584,18 +575,6 @@
 "ext":"./lib/TVB.json"},
 
 
- 
-                 {
-            "key": "大米星球",
-            "name": "🆁┃大米",
-            "type": 3,
-            "api": "csp_AppDaMi",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-   
-
    {
       "key": "天天美剧网（APP）",
       "name": "🆁┃美剧",
@@ -649,7 +628,7 @@
     },
     {
       "key": "短剧网",
-      "name": "短剧网｜短剧",
+      "name": "🆁┃短剧2",
       "type": 3,
       "api": "csp_XBPQ",
       "ext": "./lib/DJWang.json"
@@ -658,7 +637,7 @@
      
         {
             "key": "星芽短剧",
-            "name": "🆁┃短剧2",
+            "name": "🆁┃短剧3",
             "type": 3,
             "api": "csp_AppXY",
             "searchable": 1,
@@ -689,7 +668,18 @@
       "jar": "./MB/QJ.jar;md5;5d2689468818731b89ee0c08afd05090",
       "playerType": 2,
       "ext": "haHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvc3h5cy9hcGkucGhwL3Byb3ZpZGUvdm9kL3xva2h0dHAvNC45LjF8cWlhb2pp"
-    }   
+    }, 
+        {
+      "key": "影视大全",
+      "name": "影视大全",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+     "简介": "<p>&&</p>",
+     "分类url":"https://www.ysdq.me/vodtype/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+ "分类":"电影$1#电视剧$2#短剧$3#动漫$5#综艺$4"
+    } }
+        
         
 
 ],
