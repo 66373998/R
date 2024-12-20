@@ -129,6 +129,28 @@
 "jar": "./MB/QJ.jar;md5;5d2689468818731b89ee0c08afd05090",
 "ext":"eaHR0cHM6Ly9hcGkuY25tY29tLmNvbS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ=="},
 
+    {
+            "key": "csp_zh_HG影视",
+            "name": "HG┃影视",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "api": "csp_AppYsV2",
+            "ext": "https://cs.hgyx.vip/api2/api.php/app/",
+            "danMu": "弹"
+        },
+{
+            "key": "皮皮虾",
+            "name": "皮皮虾｜APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://38.55.250.149:1314/api.php/app/"
+        },
+
 
      {
       "key": "🌞腾腾4K解析_js",
