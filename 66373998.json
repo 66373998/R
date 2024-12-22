@@ -176,6 +176,23 @@
     	
     {"key":"爱奇艺","name":"🆁┃奇艺","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/爱奇艺.js"},	
     
+    	{
+            "key": "搜狗视频",
+            "name": "🆁┃搜狗",
+            "type": 3,
+            "api": "./lib/drpy2.min.js",
+            "ext": "./lib/搜狗视频.js"
+        },
+    
+    {"key":"AI4",
+        "name":"🆁┃AI4",
+        "type":3,
+        "api":"csp_AppYsV2","searchable":1,
+        "quickSearch":1,
+        "filterable":0,
+        "playerType":2,
+     "jar": "./MB/QJ.jar;md5;5d2689468818731b89ee0c08afd05090",
+      "ext":"iaHR0cDovLzM5Ljk4LjMyLjI0MTo2Njg4L2FwaS5waHAvemp2My52b2Q="},
         
     {
             "key": "小苹果",
@@ -452,13 +469,7 @@
             "api": "./lib/drpy2.min.js",
             "ext": "./lib/看了么.js"
         },
-	{
-            "key": "搜狗视频",
-            "name": "🆁┃搜狗",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./lib/搜狗视频.js"
-        },
+
         {
             "key": "碟调影视",
             "name": "🆁┃低调",
@@ -669,15 +680,7 @@
             "quickSearch": 0,
             "filterable": 0
         }, 
-        {"key":"AI4",
-        "name":"AI4┃APP",
-        "type":3,
-        "api":"csp_AppYsV2","searchable":1,
-        "quickSearch":1,
-        "filterable":0,
-        "playerType":2,
-     "jar": "./MB/QJ.jar;md5;5d2689468818731b89ee0c08afd05090",
-      "ext":"iaHR0cDovLzM5Ljk4LjMyLjI0MTo2Njg4L2FwaS5waHAvemp2My52b2Q="},
+   
         
 {"key":"AI2",
 "name":"🆁┃搜索","type":3,
