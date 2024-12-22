@@ -117,13 +117,7 @@
 "jar": "./MB/QJ.jar;md5;5d2689468818731b89ee0c08afd05090",
 "ext":"caHR0cDovL2t4eXMua2FpeGlubWFuaHVhLnRvcHw1ODliMTkwNmI5NWY3MTljfDU4OWIxOTA2Yjk1ZjcxOWN8MTAw"},
 
-{"key":"木叶",
-"name":"木叶┃App",
-"type":3,
-"api":"csp_Xdai",
-"playerType":2,
-"jar": "./MB/QJ.jar;md5;5d2689468818731b89ee0c08afd05090",
-"ext":"saHR0cDovLzEyNC4yMjMuMTEuMjU6MjQxMDJ8NnZheGpuNHZia3Joc3pwOHw2dmF4am40dmJrcmhzenA4fDEwMA=="},
+
 
 {"key":"雷电","name":"雷电┃App","type":3,
 "api":"csp_Slys",
@@ -140,19 +134,10 @@
 "jar": "./MB/QJ.jar;md5;5d2689468818731b89ee0c08afd05090",
 "ext":"eaHR0cHM6Ly9hcGkuY25tY29tLmNvbS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ=="},
 
-{
-            "key": "皮皮虾",
-            "name": "皮皮┃App",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://38.55.250.149:1314/api.php/app/"
-        },
+
         {
             "key": "HG影视",
-            "name": "HG┃App",
+            "name": "H G┃App",
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
@@ -730,17 +715,7 @@
       "type": 2,
       "url": "Sequence"
     },
-    {
-            "name": "皮皮虾",
-            "type": "1",
-            "url": "http://103.117.123.141:5423/index.php?url=",
-            "ext": {
-                "flag": [
-                    "PPXLG",
-                    "皮皮虾4K"
-                ]
-            }
-        },
+    
     
     {
       "name": "🆁┃壹",
