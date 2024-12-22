@@ -18,6 +18,17 @@
       "api": "csp_Douban",
       "searchable": 0, 
       "jar": "./JAR/0104.jar"},
+      
+          {
+      "key": "drpyS_老白故事[听]",
+      "name": "🆁┃听书",
+      "type": 4,
+      "api": "https://drpys.6516789.xyz/api/老白故事[听]",
+      "searchable": 2,
+      "filterable": 1,
+      "quickSearch": 0,
+      "ext": ""
+    },
  
      {"key":"南瓜",
 "name":"南瓜┃App",
@@ -131,7 +142,7 @@
 
 {
             "key": "皮皮虾",
-            "name": "皮皮虾｜APP",
+            "name": "皮皮┃App",
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
@@ -141,7 +152,7 @@
         },
         {
             "key": "HG影视",
-            "name": "HG影视｜APP",
+            "name": "HG┃App",
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
@@ -191,15 +202,13 @@
             "filterable": 1
         },
         {
-      "key": "csp_Nmys",
+      "key": "农民影视",
       "name": "🆁┃农民",
       "type": 3,
-      "playerType": "2",
       "api": "csp_Nmys",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://vip.wwgz.cn/"
+      "filterable": 1
     },
                {
       "key": "可可影视",
@@ -211,6 +220,17 @@
       "filterable": 1,
       "ext": "./lib/KKYS.json"
     },
+                {
+            "key": "影视大全",
+            "name": "🆁┃影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "简介": "<p>&&</p>",
+                "分类url": "https://www.ysdq.me/vodshow/{cateId}-{area}-{by}-{class}-{lang}--{catePg}-{year}.html",
+                "分类": "电影$1#电视剧$2#短剧$3#动漫$5#综艺$4"
+            }
+        },
     {
       "key": "韩剧网",
       "name": "🆁┃韩网",
@@ -675,7 +695,7 @@
       "ext":"iaHR0cDovLzM5Ljk4LjMyLjI0MTo2Njg4L2FwaS5waHAvemp2My52b2Q="},
         
 {"key":"AI2",
-"name":"AI2┃仅搜索","type":3,
+"name":"🆁┃搜索","type":3,
 "api":"csp_AI",
 "searchable":1,
 "quickSearch":1,
@@ -685,7 +705,7 @@
 "ext":"faHR0cDovLzE3NS4xNzguODAuMjA5L21iL2FwaS5waHAvcHJvdmlkZS92b2QvfE1vemlsbGEvNS4wIChNYWNpbnRvc2g7IEludGVsIE1hYyBPUyBYIDEwXzE1XzcpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMTkuMC4wLjAgU2FmYXJpLzUzNy4zM3xxaWFvamk="},
 
 {"key":"AI3",
-"name":"AI3┃仅搜索",
+"name":"🆁┃搜索",
 "type":3,
 "api":"csp_AI",
 "searchable":1,
@@ -693,19 +713,8 @@
 "filterable":0,
 "playerType":2,
  "jar": "./MB/QJ.jar;md5;5d2689468818731b89ee0c08afd05090", 
-"ext":"haHR0cDovLzE3NS4xNzguODAuMjA5L21iL3N4eXMvYXBpLnBocC9wcm92aWRlL3ZvZC98b2todHRwLzQuOS4xfHFpYW9qaQ=="},
+"ext":"haHR0cDovLzE3NS4xNzguODAuMjA5L21iL3N4eXMvYXBpLnBocC9wcm92aWRlL3ZvZC98b2todHRwLzQuOS4xfHFpYW9qaQ=="}
 
-        {
-      "key": "影视大全",
-      "name": "影视大全",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-     "简介": "<p>&&</p>",
-     "分类url":"https://www.ysdq.me/vodtype/{cateId}-{area}--{class}-----{catePg}---{year}.html",
- "分类":"电影$1#电视剧$2#短剧$3#动漫$5#综艺$4"
-    } }
-        
         
 
 ],
