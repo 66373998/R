@@ -182,7 +182,7 @@
      {"key": "腾腾4K解析",
       "name": "🆁┃腾腾",
       "type": 3,
-      "api": "https://notabug.org/66373998/R/raw/master/lib/drpy2.min.js",
+      "api": "./js/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -203,25 +203,25 @@
     {"key":"芒果视频",
     "name":"🆁┃芒果",
     "type":3,
-    "api":"https://notabug.org/66373998/R/raw/master/lib/drpy2.min.js",
+    "api":"./js/drpy2.min.js",
     "ext":"./js/芒果.js"},
     
     	{"key":"优酷视频",
     	"name":"🆁┃优酷",
     	"type":3,
-    	"api":"https://notabug.org/66373998/R/raw/master/lib/drpy2.min.js",
+    	"api":"./js/drpy2.min.js",
     	"ext":"./js/优酷.js"},
     	
     {"key":"爱奇艺",
     "name":"🆁┃奇艺",
     "type":3,
-    "api":"https://notabug.org/66373998/R/raw/master/lib/drpy2.min.js",
+    "api":"./js/drpy2.min.js",
     "ext":"./js/奇艺.js"},	
      	
            { "key": "搜狗视频",
             "name": "🆁┃搜狗",
             "type": 3,
-            "api": "https://notabug.org/66373998/R/raw/master/lib/drpy2.min.js",
+            "api": "./js/drpy2.min.js",
     "ext": "./js/搜狗.js" },
         
     {  "key": "浪酷弹幕",
@@ -426,7 +426,7 @@
             {"key": "圈",
             "name": "🆁┃韩剧",
             "type": 3,
-            "api": "https://notabug.org/66373998/R/raw/master/lib/drpy2.min.js",
+            "api": "./js/drpy2.min.js",
             "ext": "./js/韩小圈.js"},
  
         
@@ -439,13 +439,13 @@
            { "key": "看了么",
             "name": "🆁┃酷看",
             "type": 3,
-            "api": "https://notabug.org/66373998/R/raw/master/lib/drpy2.min.js",
+            "api": "./js/drpy2.min.js",
             "ext": "./js/看了么.js" },
       
             {"key": "低调影视",
             "name": "🆁┃低调",
             "type": 3,
-            "api": "https://notabug.org/66373998/R/raw/master/lib/drpy2.min.js",
+            "api": "./js/drpy2.min.js",
             "ext": "./js/低调.js"},
        
 	
@@ -470,19 +470,19 @@
     {"key":"茶杯狐",
 	"name":"🆁┃茶杯",
 	"type":3,
-	"api":"https://notabug.org/66373998/R/raw/master/lib/drpy2.min.js",
+	"api":"./js/drpy2.min.js",
 	"ext":"./js/茶杯狐.js"},
 	
 	{"key":"魔力高清",
 	"name":"🆁┃魔力",
 	"type":3,
-	"api":"https://notabug.org/66373998/R/raw/master/lib/drpy2.min.js",
+	"api":"./js/drpy2.min.js",
 	"ext":"./js/魔力.js"},
 	
 	{"key":"在线之家",
 	"name":"🆁┃在线",
 	"type":3,
-	"api":"https://notabug.org/66373998/R/raw/master/lib/drpy2.min.js",
+	"api":"./js/drpy2.min.js",
 	"ext":"./js/在线之家.js"},
 		
 	{"key":"歪片星球",
@@ -551,7 +551,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "playerType": "1",
-      "api": "https://notabug.org/66373998/R/raw/master/lib/drpy2.min.js",
+      "api": "./js/drpy2.min.js",
       "ext": "./js/荐片.js"  }, 
 
 {"key":"csp_淘剧",
