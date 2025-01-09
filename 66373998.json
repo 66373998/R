@@ -170,15 +170,6 @@
       "filterable": 1,
       "playerType": 2 },
 
-         { "key": "皮皮虾",
-            "name": "皮皮虾｜APP",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://38.55.250.149:1314/api.php/app/" },
-     
      {"key": "腾腾4K解析",
       "name": "🆁┃腾腾",
       "type": 3,
