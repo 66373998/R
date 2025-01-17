@@ -11,7 +11,7 @@
       "searchable": 0 },
               
      { "key": "drpyS_老白故事[听]",
-      "name": "🎥┃听书",
+      "name": "𝙍┃听书",
       "type": 4,
       "api": "https://drpys.6516789.xyz/api/老白故事[听]",
       "searchable": 2,
@@ -171,7 +171,7 @@
       "playerType": 2 },
 
      {"key": "腾腾4K解析",
-      "name": "🎥┃腾腾",
+      "name": "𝙍┃腾腾",
       "type": 3,
       "api": "./js/drpy2.min.js",
       "searchable": 1,
@@ -181,7 +181,7 @@
       "ext": "./js/腾讯.js"  },
       
      { "key": "360_spider",
-      "name": "🎥┃360",
+      "name": "𝙍┃360",
       "api": "csp_SP360",
       "type": 3,
       "filterable": 1,
@@ -192,36 +192,41 @@
       "ext": ""},
       
     {"key":"芒果视频",
-    "name":"🎥┃芒果",
+    "name":"𝙍┃芒果",
     "type":3,
     "api":"./js/drpy2.min.js",
     "ext":"./js/芒果.js"},
     
     	{"key":"优酷视频",
-    	"name":"🎥┃优酷",
+    	"name":"𝙍┃优酷",
     	"type":3,
     	"api":"./js/drpy2.min.js",
     	"ext":"./js/优酷.js"},
     	
     {"key":"爱奇艺",
-    "name":"🎥┃奇艺",
+    "name":"𝙍┃奇艺",
     "type":3,
     "api":"./js/drpy2.min.js",
     "ext":"./js/奇艺.js"},	
      	
            { "key": "搜狗视频",
-            "name": "🎥┃搜狗",
+            "name": "𝙍┃搜狗",
             "type": 3,
             "api": "./js/drpy2.min.js",
     "ext": "./js/搜狗.js" },
                           
+
            { "key": "皮皮虾",
-            "name": "皮皮虾",
+            "name": "皮皮虾｜APP",
             "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/皮皮虾.js"  },          
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://www.ppxys.vip/api.php/app/"},     
+                 
     {  "key": "浪酷弹幕",
-      "name": "🎥┃浪酷",
+      "name": "𝙍┃浪酷",
       "type": 3,
       "api": "csp_TianTian",
       "searchable": 1,
@@ -232,7 +237,7 @@
         "site": "aHR0cDovL3YubGt1eXMuY24=" } },
         
      { "key": "瓜子影视",
-      "name": "🎥┃瓜子",
+      "name": "𝙍┃瓜子",
       "type": 3,
       "api": "csp_Gz360",
       "searchable": 1,
@@ -240,7 +245,7 @@
       "filterable": 1},
         
            { "key": "小苹果",
-            "name": "🎥┃苹果",
+            "name": "𝙍┃苹果",
             "type": 3,
             "api": "csp_Xpg",
             "searchable": 1,
@@ -248,7 +253,7 @@
             "filterable": 1 },
         
      { "key": "农民影视",
-      "name": "🎥┃农民",
+      "name": "𝙍┃农民",
       "type": 3,
       "api": "csp_Nmys",
       "searchable": 1,
@@ -256,7 +261,7 @@
       "filterable": 1  },
     
      { "key": "真心影视",
-      "name": "🎥┃真心",
+      "name": "𝙍┃真心",
       "type": 3,
       "api": "csp_WebGZ",
       "searchable": 1,
@@ -264,7 +269,7 @@
       "filterable": 1  },
       
             {"key": "饺子影视",
-            "name": "🎥┃饺子",
+            "name": "𝙍┃饺子",
             "type": 3,
             "api": "csp_Jiaozi",
             "searchable": 1,
@@ -272,7 +277,7 @@
             "filterable": 1  },
                 
            { "key": "酷影视",
-            "name": "🎥┃酷影",
+            "name": "𝙍┃酷影",
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
@@ -281,7 +286,7 @@
             "ext": "https://www.tvkuys.xyz/api.php/app/" },
        
      { "key": "素白白",
-      "name": "🎥┃素白",
+      "name": "𝙍┃素白",
       "type": 3,
       "api": "csp_Subaibai",
       "searchable": 1,
@@ -290,7 +295,7 @@
       "ext": "http://subaibai.com" },
        
      { "key": "哔嘀弹幕",
-      "name": "🎥┃哔嘀",
+      "name": "𝙍┃哔嘀",
       "type": 3,
       "api": "csp_Bdys",
       "searchable": 1,
@@ -301,7 +306,7 @@
         "danmu": true }  },
                
            { "key": "视频库",
-            "name": "🎥┃影库",
+            "name": "𝙍┃影库",
             "type": 3,
             "api": "csp_WebVidHub",
             "searchable": 1,
@@ -311,7 +316,7 @@
     
     
            { "key": "厂长资源",
-            "name": "🎥┃厂长",
+            "name": "𝙍┃厂长",
             "type": 3,
             "api": "csp_Czzy",
             "searchable": 1,
@@ -319,7 +324,7 @@
             "filterable": 1 },
    
      { "key": "六六六",
-      "name": "🎥┃六六",
+      "name": "𝙍┃六六",
       "playerType": 1,
       "type": 3,
       "api": "csp_AppYsV2",
@@ -329,7 +334,7 @@
   "ext": " http://122.228.85.203:1000/api.php/app/" },  
            
       { "key": "全网影视",
-      "name": "🎥┃全网",
+      "name": "𝙍┃全网",
       "type": 3,
       "api": "csp_Quanwk",
       "searchable": 1,
@@ -338,7 +343,7 @@
       "ext": "https://888.qkw2.cc"},  
       
             {"key": "文才弹幕",
-            "name": "🎥┃文才",
+            "name": "𝙍┃文才",
             "type": 3,
             "api": "csp_Jpys",
             "searchable": 1,
@@ -348,7 +353,7 @@
                 "danmu": true  } },
                 
 	{"key":"机器人",
-	"name":"🎥┃机器",
+	"name":"𝙍┃机器",
 	"type":3,
 	"api":"csp_Ikanbot",
 	"searchable":1,
@@ -357,7 +362,7 @@
 	"ext":"https://v.ikanbot.com"},
 	
 	{"key":"快看",
-"name":"🎥┃快看",
+"name":"𝙍┃快看",
 "type":3,
 "api":"csp_Kuaikan",
 "searchable":1,
@@ -365,13 +370,13 @@
 "filterable":1},
    
       {"key": "天天美剧网（APP）",
-      "name": "🎥┃美剧",
+      "name": "𝙍┃美剧",
       "type": 3,
       "api": "csp_AppYsV2",
       "ext": "https://www.ttmja.com/api.php/app/" },
 	       
      { "key": "可可影视",
-      "name": "🎥┃可可",
+      "name": "𝙍┃可可",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -380,7 +385,7 @@
       "ext": "./json/可可.json"},
                 
             {"key": "影视大全",
-            "name": "🎥┃影视",
+            "name": "𝙍┃影视",
             "type": 3,
             "api": "csp_XBPQ",
             "ext": {
@@ -389,7 +394,7 @@
   "分类": "电影$1#电视剧$2#短剧$3#动漫$5#综艺$4"  } },
     
       {"key": "韩剧网",
-      "name": "🎥┃韩网",
+      "name": "𝙍┃韩网",
       "type": 3,
       "api": "csp_XBPQ",
       "ext": {
@@ -402,7 +407,7 @@
     } },
         
      {"key": "奈飞影视",
-      "name": "🎥┃奈飞",
+      "name": "𝙍┃奈飞",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
@@ -411,7 +416,7 @@
       "ext": "./json/鸭奈飞.json" },
     
      { "key": "大师兄",
-      "name": "🎥┃师兄",
+      "name": "𝙍┃师兄",
       "type": 3,
       "api": "csp_XBPQ",
       "ext": {
@@ -420,33 +425,33 @@
         "分类": "电视剧$2#电影$1#动漫$4#综艺$3" }  },
       
             {"key": "圈",
-            "name": "🎥┃韩剧",
+            "name": "𝙍┃韩剧",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/韩小圈.js"},
  
         
     {"key": "csp_XYQHiker_农民影视",
-    "name":"🎥┃旺旺",
+    "name":"𝙍┃旺旺",
     "type":3,
     "api":"csp_XYQHiker",
     "ext":"./json/旺旺.json" },
          
            { "key": "看了么",
-            "name": "🎥┃酷看",
+            "name": "𝙍┃酷看",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/看了么.js" },
       
             {"key": "低调影视",
-            "name": "🎥┃低调",
+            "name": "𝙍┃低调",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/低调.js"},
        
 	
 	{"key":"三四八",
-	"name":"🎥┃三四",
+	"name":"𝙍┃三四",
 	"type":3,
 	"api":"csp_XBPQ",
 	"searchable":1,
@@ -455,7 +460,7 @@
 	"ext":"./json/三四八.json"},
 	
 	{"key":"电影牛",
-	"name":"🎥┃影牛",
+	"name":"𝙍┃影牛",
 	"type":3,
 	"api":"csp_XYQHiker",
 	"searchable":1,
@@ -464,25 +469,25 @@
 	"ext":"./json/影牛.json"},
 		
     {"key":"茶杯狐",
-	"name":"🎥┃茶杯",
+	"name":"𝙍┃茶杯",
 	"type":3,
 	"api":"./js/drpy2.min.js",
 	"ext":"./js/茶杯狐.js"},
 	
 	{"key":"魔力高清",
-	"name":"🎥┃魔力",
+	"name":"𝙍┃魔力",
 	"type":3,
 	"api":"./js/drpy2.min.js",
 	"ext":"./js/魔力.js"},
 	
 	{"key":"在线之家",
-	"name":"🎥┃在线",
+	"name":"𝙍┃在线",
 	"type":3,
 	"api":"./js/drpy2.min.js",
 	"ext":"./js/在线之家.js"},
 		
 	{"key":"歪片星球",
-	"name":"🎥┃歪歪",
+	"name":"𝙍┃歪歪",
 	"type":3,
 	"api":"csp_XYQHiker",
 	"searchable":1,
@@ -492,7 +497,7 @@
 
      
 {"key": "csp_七新影视",
-"name":"🎥┃七新",
+"name":"𝙍┃七新",
 "type":3,
 "api":"csp_XBPQ",
 "searchable":1,
@@ -501,7 +506,7 @@
 "ext":"./json/七新.json"},   
 
 {"key":"csp_xBPQ_玖八",
-"name":"🎥┃玖八",
+"name":"𝙍┃玖八",
 "type":3,
 "api":"csp_XBPQ",
 "searchable":1,
@@ -510,7 +515,7 @@
 "ext":"./json/九八.json"},    
 
 {"key":"csp_星辰",
-"name":"🎥┃星辰",
+"name":"𝙍┃星辰",
 "type":3,
 "api":"csp_XBPQ",
 "searchable":1,
@@ -519,20 +524,20 @@
 "ext":"./json/星辰.json"},
  
 {"key":"剧圈圈",
-"name":"🎥┃剧圈",
+"name":"𝙍┃剧圈",
 "type":3,
 "api":"csp_XBPQ",
 "ext": {"分类":"电影$1#电视剧$2#动漫$3#综艺$4","分类url":"https://www.jqqzx.cc/vodshow/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html"}},
   
 		{ "key": "海兔影院", 
-		 "name": "🎥┃海兔", 
+		 "name": "𝙍┃海兔", 
 		 "type": 3,
 		 "api": "csp_XBPQ",
 		  "ext": { "分类url":"https://www.haituu.tv/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html","分类":"电视剧$2#电影$1#综艺$3"}},
  
 
    { "key": "鸭奈飞影视",
-      "name": "🎥┃小鸭",
+      "name": "𝙍┃小鸭",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
@@ -541,7 +546,7 @@
       "ext": "./json/小鸭.json"},
       
  {  "key": "贱贱",
-      "name": "🎥┃鉴片",
+      "name": "𝙍┃鉴片",
       "type": 3,
       "searchable": 1,
       "quickSearch": 1,
@@ -551,7 +556,7 @@
       "ext": "./js/荐片.js"  }, 
 
 {"key":"csp_淘剧",
-"name":"🎥┃淘剧",
+"name":"𝙍┃淘剧",
 "type":3,
 "api":"csp_XBPQ",
 "searchable":1,
@@ -560,7 +565,7 @@
 "ext":"./json/淘剧.json"},
 
 {"key":"csp_TVB",
-"name":"🎥┃TVB",
+"name":"𝙍┃TVB",
 "type":3,
 "api":"csp_XBPQ",
 "searchable":1,
@@ -569,7 +574,7 @@
 "ext":"./json/TVB.json"},
 
 {"key":"奇优",
- "name":"️🎥┃奇优",
+ "name":"️𝙍┃奇优",
  "type":3,
  "api":"csp_XBPQ",
  "searchable":1,
@@ -578,14 +583,14 @@
  "ext":"./json/奇优.json"},
  
       {"key": "吉吉短剧",
-      "name": "🎥┃短剧1",
+      "name": "𝙍┃短剧1",
       "type": 3,
       "api": "csp_XBPQ",
       "ext": { "分类": "短剧$1#电视剧$2",
     "分类url": "https://www.jjduanju.com/sort/{cateId}/page/{catePg}.html"} },
     
     {  "key": "短剧网",
-      "name": "🎥┃短剧2",
+      "name": "𝙍┃短剧2",
       "type": 3,
       "api": "csp_XBPQ",
       "ext": {
@@ -593,7 +598,7 @@
     "分类url": "https://www.duanjuwang.cc/vodtype/{cateId}/page/{catePg}.html"} },
      
           {  "key": "星芽短剧",
-            "name": "🎥┃短剧3",
+            "name": "𝙍┃短剧3",
             "type": 3,
             "api": "csp_AppXY",
             "searchable": 1,
@@ -602,7 +607,7 @@
    
         
 {"key":"AI2",
-"name":"🎥┃搜索","type":3,
+"name":"𝙍┃搜索","type":3,
 "api":"csp_AI",
 "searchable":1,
 "quickSearch":1,
@@ -613,7 +618,7 @@
     },
 
 {"key":"AI3",
-"name":"🎥┃搜索",
+"name":"𝙍┃搜索",
 "type":3,
 "api":"csp_AI",
 "searchable":1,
@@ -717,7 +722,18 @@
       "name": "𝙍┃伍",
       "type": 0,
       "url": "https://jx.m3u8.tv/jiexi/?url="
-    }
+    }, 
+    {
+            "name": "皮皮虾",
+            "type": "1",
+            "url": "http://jiexi.52ppx.top/lxjson.php?url=",
+            "ext": {
+                "flag": [
+                    "PPXLG",
+                    "皮皮虾4K"
+                ]
+            }
+        }
   ],
   "doh": [
     {
