@@ -25,6 +25,9 @@ var rule = {
     filter: 'H4sIAAAAAAAAA+2XvUrDUBSA3+XOHc65adraN+jm5CIdYok/GFupWiilIBalIFYoIh1EBxEKIih0MOZ1msS+hbc1yTni4mKms6XfIbnnC/mG9hSq6mZP7btdVVWNXae949aa2y1VUE3nwDVsHkw+Z378FoT3l4Z2HO/EXd3SNMPwfLoYTJfY/HA8T/UL6eDK3JUMtjDjnb3DFOoMbtTW45tpOHxPR1Y2Sk4/86PxSzotqn59Of/e+ajVPqZto9E4/Lj+tWd0dxrdviYPaNA6hseD9MEN2ih+eJr7o8XzJBxepNOfx3Zdp03Hhv5sHjz+/fVo0MUEry4Zt4hbnGvimnMkjpwDcWAc1zJuLhmvEK9wXiZe5rxEvMS5TdzmnHyR+yL5IvdF8kXui+SL3BfJF7kvkC9wXyBf4L5AvsB9gXyB+wL5AvcF8oXVl1MvKC2pSWqSWh6pWZKapCap5ZGaDdKatCat5dKa/FuT1qS1XFpD80YkNolNYvv32PpfCLkneIcUAAA=',
     limit: 20,
     play_parse: true,
+    // 手动调用解析请求json的url,此lazy不方便
+    // lazy:'js:print(input);fetch_params.headers["user-agent"]=MOBILE_UA;let html=request(input);let rurl=html.match(/window\\.open\\(\'(.*?)\',/)[1];rurl=urlDeal(rurl);input={parse:1,url:rurl};',
+    // 推荐:'.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
     lazy: $js.toString(() => {
         try {
             let api = "" + input.split("?")[0];
@@ -42,14 +45,14 @@ var rule = {
                     parse: 0,
                     url: bata.url,
                     jx: 0,
-                    danmaku: "http://43.242.202.175:9595/nnjsdm.php?key=741852963&id=" + input.split("?")[0]
+                    danmaku: "http://103.36.220.166:98/tvbox/zh.php?url=" + input.split("?")[0]
                 };
             } else {
                 input = {
                     parse: 0,
                     url: input.split("?")[0],
                     jx: 1,
-                    danmaku: "http://43.242.202.175:9595/nnjsdm.php?key=741852963&id=" + input.split("?")[0]
+                    danmaku: "http://103.36.220.166:98/tvbox/zh.php?url=" + input.split("?")[0]
                 };
             }
         } catch {
@@ -57,18 +60,15 @@ var rule = {
                 parse: 0,
                 url: input.split("?")[0],
                 jx: 1,
-                danmaku: "http://43.242.202.175:9595/nnjsdm.php?key=741852963&id=" + input.split("?")[0]
+                danmaku: "http://103.36.220.166:98/tvbox/zh.php?url=" + input.split("?")[0]
             };
         }
     }),
-    // 手动调用解析请求json的url,此lazy不方便
-    // lazy:'js:print(input);fetch_params.headers["user-agent"]=MOBILE_UA;let html=request(input);let rurl=html.match(/window\\.open\\(\'(.*?)\',/)[1];rurl=urlDeal(rurl);input={parse:1,url:rurl};',
-    // 推荐:'.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
     一级: 'json:data.hitDocs;title;img;updateInfo||rightCorner.text;playPartId',
     // 一级:'json:data.hitDocs;title;img;updateInfo;playPartId',
     二级: $js.toString(() => {
         fetch_params.headers.Referer = "https://www.mgtv.com";
-        fetch_params.headers["User-Agent"] = UA;
+        fetch_params.headers["User-Agent"] = MOBILE_UA;
         pdfh = jsp.pdfh;
         pdfa = jsp.pdfa;
         pd = jsp.pd;
@@ -105,7 +105,7 @@ var rule = {
                 time = "已完结"
             }
             let _img = pd(html, ".video-img&&img&&src");
-            let JJ = pdfh(html, ".desc&&Text").split("简介：")[1];
+            let JJ = pdfh(html, ".desc&&Text").split("牛马简介：")[1];
             let _desc = time;
             VOD.vod_name = pdfh(html, ".vt-txt&&Text");
             VOD.type_name = pdfh(html, "p:eq(0)&&Text").substr(0, 6);
@@ -149,7 +149,7 @@ var rule = {
                 if (i > 1) {
                     json = JSON.parse(fetch(input.replace("page=1", "page=" + i), {}))
                 }
-                json.data.list.forEach(function(data) {
+                json.data.list.forEach(function (data) {
                     let url = "https://www.mgtv.com" + data.url;
                     if (data.isIntact == "1") {
                         d.push({
@@ -164,8 +164,8 @@ var rule = {
         } else {
             print(input + "暂无片源")
         }
-        VOD.vod_play_from = "白嫖果果4K";
-        VOD.vod_play_url = d.map(function(it) {
+        VOD.vod_play_from = "niuma";
+        VOD.vod_play_url = d.map(function (it) {
             return it.title + "$" + it.url
         }).join("#");
         setResult(d);
@@ -173,7 +173,7 @@ var rule = {
 
     // 搜索: $js.toString(() => {
     //     fetch_params.headers.Referer = "https://www.mgtv.com";
-    //     fetch_params.headers["User-Agent"] = UA;
+    //     fetch_params.headers["User-Agent"] = MOBILE_UA;
     //     let d = [];
     //     let html = request(input);
     //     let json = JSON.parse(html);
@@ -207,11 +207,11 @@ var rule = {
     // }),
     搜索: $js.toString(() => {
         fetch_params.headers.Referer = "https://www.mgtv.com";
-        fetch_params.headers["User-Agent"] = UA;
+        fetch_params.headers["User-Agent"] = MOBILE_UA;
         let d = [];
         let html = request(input);
         let json = JSON.parse(html);
-        json.data.contents.forEach(function(data) {
+        json.data.contents.forEach(function (data) {
             if (data.type && data.type == 'media') {
                 let item = data.data[0];
                 let desc = item.desc.join(',');
