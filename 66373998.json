@@ -281,7 +281,63 @@
             "name": "尘落｜APP",
             "type": 3,
             "api": "csp_Wetv"
-        },       
+        },    
+                {
+            "key": "小米虎虎",
+            "name": "虎虎｜APP",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_AppHuhu"
+        },
+        {
+            "key": "小米眼镜",
+            "name": "眼镜｜APP",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_AppYanjing"
+        },
+        {
+            "key": "小米米兔",
+            "name": "米兔｜APP",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_MiTuApp"
+        },
+        {
+            "key": "小米玉米",
+            "name": "玉米｜APP",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_YuMiApp"
+        },
+        {
+            "key": "小米电影",
+            "name": "电影｜APP",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_MovieApp"
+        },
+        {
+            "key": "小米多多",
+            "name": "多多｜APP",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_DuoDuoApp"
+        },
+        {
+            "key": "小米良人",
+            "name": "良人｜APP",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_LiangRenApp"
+        },   
                
 
      {"key": "腾腾4K解析",
