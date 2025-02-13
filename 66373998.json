@@ -314,14 +314,7 @@
             "quickSearch": 1,
             "api": "csp_YuMiApp"
         },
-        {
-            "key": "小米电影",
-            "name": "电影｜APP",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "api": "csp_MovieApp"
-        },
+
         {
             "key": "小米多多",
             "name": "多多｜APP",
@@ -330,25 +323,9 @@
             "quickSearch": 1,
             "api": "csp_DuoDuoApp"
         },
-        {
-            "key": "小米良人",
-            "name": "良人｜APP",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "api": "csp_LiangRenApp"
-        },   
-               
 
-     {"key": "腾腾4K解析",
-      "name": "𝙍┃腾腾",
-      "type": 3,
-      "api": "./js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "./js/腾讯.js"  },
+
+    
       
      { "key": "360_spider",
       "name": "𝙍┃360",
@@ -361,29 +338,76 @@
       "jar": "./jar/QJ.jar;md5;e2eaed40e2a3f586866ec46d893ec60f",
       "ext": ""},
       
-    {"key":"芒果视频",
-    "name":"𝙍┃芒果",
-    "type":3,
-    "api":"./js/drpy2.min.js",
-    "ext":"./js/芒果.js"},
-    
-    	{"key":"优酷视频",
-    	"name":"𝙍┃优酷",
-    	"type":3,
-    	"api":"./js/drpy2.min.js",
-    	"ext":"./js/优酷.js"},
-    	
-    {"key":"爱奇艺",
-    "name":"𝙍┃奇艺",
-    "type":3,
-    "api":"./js/drpy2.min.js",
-    "ext":"./js/奇艺.js"},	
-     	
-           { "key": "搜狗视频",
-            "name": "𝙍┃搜狗",
+  {
+            "key": "腾讯弹幕",
+            "name": "𝙍┃腾讯",
             "type": 3,
-            "api": "./js/drpy2.min.js",
-    "ext": "./js/搜狗.js" },
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/腾讯弹幕.js"
+        },
+        {
+            "key": "优酷弹幕",
+            "name": "𝙍┃优酷",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/优酷弹幕.js"
+        },
+        {
+            "key": "芒果弹幕",
+            "name": "𝙍┃芒果",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/芒果弹幕.js"
+        },
+        {
+            "key": "爱奇艺弹幕",
+            "name": "𝙍┃奇艺",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/爱奇艺弹幕.js"
+        },
+        {
+            "key": "米兔弹幕",
+            "name": "𝙍┃米兔",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/米兔弹幕.js"
+        },
+        {
+            "key": "小熊弹幕",
+            "name": "𝙍┃小熊",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/小熊弹幕.js"
+        },
+        {
+            "key": "巨人弹幕",
+            "name": "𝙍┃巨人",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/巨人弹幕.js"
+        },
+        {
+            "key": "追剧弹幕",
+            "name": "𝙍┃追剧",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/追剧弹幕.js"
+        },
+        {
+            "key": "梦米弹幕",
+            "name": "𝙍┃梦米",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/梦米弹幕.js"
+        },
+        {
+            "key": "小虎斑弹幕",
+            "name": "𝙍┃小虎",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/小虎斑弹幕.js"
+        },
              
     {  "key": "浪酷弹幕",
       "name": "𝙍┃浪酷",
