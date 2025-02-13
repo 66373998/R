@@ -19,8 +19,6 @@
       "quickSearch": 0,
       "ext": ""  },
  
-
-
      { "key": "天天",
       "name": "天天┃App",
       "type": 3,
@@ -325,7 +323,152 @@
         },
 
 
-    
+        {
+      "key": "csp_夜猫",
+      "name": "夜猫JS",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "./js/App.js",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "aHR0cHM6Ly95bS1ycmNkbi1hb21lbmNsb3VkLnlteXMxLnh5ei9hcGkucGhwfDF2ZmZzZGFzZGFzZGFzZDJ8MXZmZnNkYXNkYXNkYXNkMg=="
+    },
+    {
+      "key": "csp_多多",
+      "name": "多多JS",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "./js/App.js",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "aHR0cDovLzIxMS45OS45OC40Nzo5OTk5L2FwaS5waHB8ZTQ2MWM3YzBlZjBiNmNkMXxlNDYxYzdjMGVmMGI2Y2Qx"
+    },
+
+    {
+      "key": "csp_电影",
+      "name": "电影JS",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "./js/App.js",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "aHR0cHM6Ly9hcGlhcHBkeXl6dHZ5eWRzcXdkeS42OC5neTo1Njg5L2FwaS5waHB8ZHl5enR2YXBpYXBweXlkc3xkeXl6dHZhcGlhcHB5eWRz"
+    },
+
+    {
+      "key": "csp_良人",
+      "name": "良人JS",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "./ks/App.js",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "aHR0cDovLzExMC40Mi4zLjE5NTo4OTg5L2FwaS5waHB8RDZxN2hqYjg3RkowOUY3N3xENnE3aGpiODdGSjA5Rjc3"
+    },
+
+    {
+      "key": "csp_麻花",
+      "name": "麻花JS",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "./js/App.js",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "aHR0cDovL2M4dzJvdjd1NXdnMnoxbzhwMjFjLmFsaXl1bmNzLmNsaWNrL2FwaS5waHB8azlvM3AyYzhiN20zejBvOHxrOW8zcDJjOGI3bTN6MG84"
+    },
+
+    {
+      "key": "csp_现代",
+      "name": "现代JS",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "./js/App.js",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "aHR0cHM6Ly9nZXQuYnJvdm9kLmNvbS9hcGkucGhwfHN6ZGp3ZGFwcHdjbm1kaGJ8c3pkandkYXBwd2NubWRoYg=="
+    },
+    {
+      "key": "csp_雨滴",
+      "name": "雨滴JS",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "./js/App.js",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "aHR0cDovL2M4dzJvdjd1NXdnMnoxbzhwMjFjLmFsaXl1bmNzLmNsaWNrL2FwaS5waHB8azlvM3AyYzhiN20zejBvOHxrOW8zcDJjOGI3bTN6MG84"
+    },
+    {
+      "key": "csp_客星",
+      "name": "客星JS",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "./js/App.js",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "aHR0cDovLzIxMS45OS45OC40Nzo5OTk5L2FwaS5waHB8ZTQ2MWM3YzBlZjBiNmNkMXxlNDYxYzdjMGVmMGI2Y2Qx"
+    },
+   {
+      "key": "csp_人人",
+      "name": "人人JS",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "./js/App.js",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "aHR0cDovLzU5LjE1My4xNjQuMTI0OjY2NTUvamoucGhwfEY1MUY1RDUyRDIzQ0JGMjd8RjUxRjVENTJEMjNDQkYyNw=="
+    },
+
+    {
+      "key": "csp_酷云",
+      "name": "酷云JS",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "./js/App.js",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "aHR0cHM6Ly9zYzEwODAudG9wL2FwaS5waHB8ZTU5ZDQ0YjJlZWYwM2JhMnxlNTlkNDRiMmVlZjAzYmEy"
+    },
+
+{
+            "key": "剧多短剧",
+            "name": "短剧PY",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "api": "./js/剧多短剧.py",
+            "playerType": 2,
+            "filterable": 1
+        },
+                {
+            "key": "南瓜影视",
+            "name": "𝙍┃南瓜",
+            "type": 3,
+            "api": "csp_NanGua",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
       
      { "key": "360_spider",
       "name": "𝙍┃360",
