@@ -322,20 +322,6 @@
             "api": "csp_DuoDuoApp"
         },
 
-
-        
-
-{
-            "key": "剧多短剧",
-            "name": "短剧PY",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "api": "./js/剧多短剧.py",
-            "playerType": 2,
-            "filterable": 1
-        },
                 {
             "key": "南瓜影视",
             "name": "𝙍┃南瓜",
