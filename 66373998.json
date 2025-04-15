@@ -10,14 +10,6 @@
       "api": "csp_Douban",
       "searchable": 0 },
               
-     { "key": "drpyS_老白故事[听]",
-      "name": "𝙍┃听书",
-      "type": 4,
-      "api": "https://drpys.6516789.xyz/api/老白故事[听]",
-      "searchable": 2,
-      "filterable": 1,
-      "quickSearch": 0,
-      "ext": ""  },
  
 
     {
@@ -804,7 +796,7 @@
         "name":"live",
         "type":0,
         "playerType":1,
-        "url":"https://gh.llkk.cc/https://raw.githubusercontent.com/66373998/iptv-api/refs/heads/master/output/result.txt"}],
+        "url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/66373998/iptv-api/refs/heads/master/output/result.txt"}],
     
 		    "parses": [
         
