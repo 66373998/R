@@ -338,7 +338,7 @@
             "name": "短剧网｜短剧",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "./XBPQ/短剧网.json"
+            "ext": "./json/短剧网.json"
         },
         {
             "key": "短剧屋",
@@ -348,7 +348,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/短剧屋.json"
+            "ext": "./json/短剧屋.json"
         },
         {
             "key": "QD4K",
@@ -624,42 +624,42 @@
             "name": "可可｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "./XBPQ/可可影视.json"
+            "ext": "./json/可可影视.json"
         },
         {
             "key": "海纳影视",
             "name": "海纳｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "./XBPQ/海纳影视.json"
+            "ext": "./json/海纳影视.json"
         },
         {
             "key": "面包影视",
             "name": "面包｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "./XBPQ/面包影视.json"
+            "ext": "./json/面包影视.json"
         },
         {
             "key": "永乐影视",
             "name": "永乐｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "./XBPQ/永乐影视.json"
+            "ext": "./json/永乐影视.json"
         },
         {
             "key": "雪糕影视",
             "name": "雪糕｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "./XBPQ/雪糕影视.json"
+            "ext": "./json/雪糕影视.json"
         },
         {
             "key": "流光影视",
             "name": "流光｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "./XBPQ/流光影视.json"
+            "ext": "./json/流光影视.json"
         },
         {
             "key": "一起影视",
@@ -719,7 +719,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/八号影视.json"
+            "ext": "./json/八号影视.json"
         },
         {
             "key": "盒子影视",
@@ -729,7 +729,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/盒子影视.json"
+            "ext": "./json/盒子影视.json"
         },
      
         {
@@ -740,7 +740,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/电影牛.json"
+            "ext": "./json/电影牛.json"
         },
         {
             "key": "剧圈圈",
